@@ -1,11 +1,11 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup(){
-  size(600, 400); 
+  size(1000, 1000); 
   background(255,255,255);
 
   var textX = random(50, 550);
   var textY = random(50, 350);
-  var yourName = "Your Name";
+  var yourName = "Selaire";
 
   fill(241,9,55);
   textSize(40);
@@ -14,7 +14,12 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-
+var textX = random(50, 550);
+  var textY = random(50, 350);
+  var yourName = "Selaire";
+    fill(241,9,55);
+  textSize(40);
+  text("Hiiii, " + yourName, textX, textY);
 };
 
 //🟡Extra FUN Features Ms. Hall Added
